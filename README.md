@@ -1,0 +1,2 @@
+# requestAnimationFrameInterval
+Interval excute callback using requestAnimationFrame
