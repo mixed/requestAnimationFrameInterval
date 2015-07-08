@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>rafi sample</title>
+		<script type="text/javascript" src="../src/_rafi_.js"></script>
+		<script type="text/javascript" src="../src/rafi.js"></script>
+		<style type="text/css">
+			#test{
+				width: 100px;
+				height: 100px;
+				position: relative;
+				top: 0px;
+				left: 0px;
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="test">
+		</div>
+		<script type="text/javascript">
+			var ele = document.getElementById('test'), delta;
+			var key = requestAnimationFrameInterval(function(timestamp, count){
+				delta = count*2;
+				ele.style.width = (delta+100+"px");
+				ele.style.height = (delta+100+"px");
+				ele.style.top = delta+"px";
+				ele.style.left = delta+"px";
+
+				if(count === 100){
+					cancelAnimationFrameInterval(key);
+				}
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "rafi",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mixed/requestAnimationFrameInterval",
+  "authors": [
+    "YongWoo Jeon<yongwoo.jeon@navercorp.com>"
+  ],
+  "description": "Interval execute callback using requestAnimationFrame",
+  "main": "/src/rafi.js",
+  "keywords": [
+    "requestAnimationFrame",
+    "interval"
+  ],
+  "license": "MIT"
+}

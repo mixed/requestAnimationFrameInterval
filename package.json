@@ -1,0 +1,37 @@
+{
+  "name": "rafi",
+  "version": "0.0.1",
+  "description": "Interval execute callback using requestAnimationFrame",
+  "main": "/src/rafi.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mixed/requestAnimationFrameInterval.git"
+  },
+  "keywords": [
+    "requestAnimationFrame",
+    "interval"
+  ],
+  "author": "YongWoo Jeon<yongwoo.jeon@navercorp.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixed/requestAnimationFrameInterval/issues"
+  },
+  "homepage": "https://github.com/mixed/requestAnimationFrameInterval",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "karma": "^0.12.37",
+    "gulp-karma": "0.0.4",
+    "karma-jasmine": "^0.3.6",
+    "karma-chrome-launcher": "^0.2.0",
+    "gulp-jscs": "^1.6.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-istanbul": "^0.10.0",
+    "karma-coverage": "^0.4.2"
+  }
+}
