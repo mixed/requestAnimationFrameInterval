@@ -28,7 +28,7 @@ gulp.task('merge', function(){
 });
 
 gulp.task('copy', function() {
-	gulp.src(__dirname + 'dist/*.js')
+	gulp.src(__dirname + '/dist/*.js')
 	// Perform minification tasks, etc here
 	.pipe(gulp.dest('./'));
 });
